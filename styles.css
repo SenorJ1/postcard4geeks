@@ -1,0 +1,42 @@
+body {
+	background: black;
+}
+
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+img {
+	height: 80px;
+	width: 70px;
+}
+
+.postcard-header {
+	display: flex;
+	height: 50px;
+	width: 50px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left {
+	padding: 10px;
+}
+.body-right {
+	padding: 10px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background: gray;
+	padding: 5px;
+}
